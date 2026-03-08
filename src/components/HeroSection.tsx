@@ -36,8 +36,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="font-body text-lg md:text-xl text-secondary-foreground max-w-2xl mx-auto mb-10"
         >
-          Computer Science student passionate about building elegant software,
-          exploring algorithms, and turning ideas into impactful projects.
+          Aspiring Software Engineer with strong foundations in OOP, data structures,
+          and application development. Building scalable, user-centric software across mobile and web platforms.
         </motion.p>
 
         <motion.div

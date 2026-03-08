@@ -21,10 +21,10 @@ const AboutSection = () => (
       </h2>
 
       <p className="font-body text-secondary-foreground text-lg leading-relaxed mb-12 max-w-3xl">
-        I'm a Computer Science student who loves solving complex problems and building
-        things that matter. From competitive programming to full-stack development,
-        I enjoy the entire spectrum of software engineering. Currently seeking
-        internship opportunities where I can grow and contribute.
+        I'm an aspiring Software Engineer with experience in iOS development (Swift, SwiftUI, UIKit)
+        and full-stack web development (MERN Stack). I've interned at Infosys and contributed to
+        improving AI reasoning at OutliersAI. I love building scalable, user-centric applications
+        and I'm always looking for opportunities to grow and contribute.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
