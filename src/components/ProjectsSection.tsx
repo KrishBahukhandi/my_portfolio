@@ -3,23 +3,23 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "CodeCollab",
-    desc: "Real-time collaborative code editor with syntax highlighting, live cursors, and integrated terminal.",
-    tech: ["React", "Socket.io", "Monaco Editor", "Node.js"],
+    title: "UniRide",
+    desc: "A full-scale iOS campus ride-sharing & community platform with real-time location-based discovery using CoreLocation and JSON-backed data models.",
+    tech: ["Swift", "SwiftUI", "Codable", "CoreLocation"],
     github: "#",
     live: "#",
   },
   {
-    title: "ML Visualizer",
-    desc: "Interactive visualizations of machine learning algorithms — from gradient descent to neural networks.",
-    tech: ["Python", "D3.js", "Flask", "TensorFlow"],
+    title: "Healthcare Management System",
+    desc: "A healthcare platform supporting appointment scheduling, secure record management, REST APIs and dashboards to streamline hospital workflows.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
     github: "#",
     live: "#",
   },
   {
-    title: "TaskFlow",
-    desc: "Kanban-style project management app with drag-and-drop, real-time sync, and team features.",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind"],
+    title: "Electricity Billing Automation",
+    desc: "Java-based system to automate electricity usage calculations using object-oriented principles for modularity and maintainability.",
+    tech: ["Java", "OOP"],
     github: "#",
     live: "#",
   },

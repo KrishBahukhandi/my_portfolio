@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="font-display text-sm tracking-widest text-primary mb-6 text-glow"
         >
-          {">"} hello_world
+          {">"} aspiring_software_engineer
         </motion.p>
 
         <motion.h1
@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
         >
-          I'm <span className="gradient-text">Alex Chen</span>
+          I'm <span className="gradient-text">Krish Bahukhandi</span>
         </motion.h1>
 
         <motion.p
@@ -36,8 +36,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="font-body text-lg md:text-xl text-secondary-foreground max-w-2xl mx-auto mb-10"
         >
-          Computer Science student passionate about building elegant software,
-          exploring algorithms, and turning ideas into impactful projects.
+          Aspiring Software Engineer with strong foundations in OOP, data structures,
+          and application development. Building scalable, user-centric software across mobile and web platforms.
         </motion.p>
 
         <motion.div

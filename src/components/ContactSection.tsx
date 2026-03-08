@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const socials = [
   { icon: Github, label: "GitHub", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto:alex@example.com" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/krish-bahukhandi-2158b2285" },
+  { icon: Mail, label: "Email", href: "mailto:krishbahukhandi35@gmail.com" },
+  { icon: Phone, label: "Phone", href: "tel:+919056049691" },
 ];
 
 const ContactSection = () => (
