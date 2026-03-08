@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Code2, GraduationCap, Rocket } from "lucide-react";
 
 const highlights = [
-  { icon: GraduationCap, label: "B.Tech CSE", desc: "3rd Year • GPA 3.8/4.0" },
-  { icon: Code2, label: "Full Stack", desc: "React, Node, Python, C++" },
-  { icon: Rocket, label: "Builder", desc: "5+ projects shipped" },
+  { icon: GraduationCap, label: "B.E. CSE", desc: "3rd Year • CGPA 9.01" },
+  { icon: Code2, label: "iOS & Full Stack", desc: "Swift, MERN, Java, C++" },
+  { icon: Rocket, label: "Builder", desc: "iOS Apps, Web Platforms & More" },
 ];
 
 const AboutSection = () => (
