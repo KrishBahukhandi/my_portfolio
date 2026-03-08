@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -48,6 +49,9 @@ const HeroSection = () => {
         >
           <a href="#projects" className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-display text-sm font-medium border-glow hover:border-glow-intense transition-shadow">
             View Projects
+          </a>
+          <a href="/Krish_Bahukhandi_Resume.pdf" download className="px-8 py-3 rounded-lg border border-primary/50 text-primary font-display text-sm font-medium hover:bg-primary/10 transition-colors inline-flex items-center gap-2">
+            <Download className="w-4 h-4" /> Resume
           </a>
           <a href="#contact" className="px-8 py-3 rounded-lg border border-border text-foreground font-display text-sm font-medium hover:border-primary/50 transition-colors">
             Get in Touch
