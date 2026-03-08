@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="font-display text-sm tracking-widest text-primary mb-6 text-glow"
         >
-          {">"} hello_world
+          {">"} aspiring_software_engineer
         </motion.p>
 
         <motion.h1
