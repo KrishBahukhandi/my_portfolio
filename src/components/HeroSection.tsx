@@ -19,7 +19,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="font-display text-sm tracking-widest text-primary mb-6 text-glow"
         >
-          {">"} aspiring_software_engineer
+          {">"} software_engineer & freelance_developer
         </motion.p>
 
         <motion.h1
@@ -37,8 +37,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="font-body text-lg md:text-xl text-secondary-foreground max-w-2xl mx-auto mb-10"
         >
-          Aspiring Software Engineer with strong foundations in OOP, data structures,
-          and application development. Building scalable, user-centric software across mobile and web platforms.
+          I build polished iOS apps and full-stack web platforms — from idea to deployment.
+          Available for freelance projects, collaborations, and product development.
         </motion.p>
 
         <motion.div

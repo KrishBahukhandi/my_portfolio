@@ -21,10 +21,10 @@ const AboutSection = () => (
       </h2>
 
       <p className="font-body text-secondary-foreground text-lg leading-relaxed mb-12 max-w-3xl">
-        I'm an aspiring Software Engineer with experience in iOS development (Swift, SwiftUI, UIKit)
-        and full-stack web development (MERN Stack). I've interned at Infosys and contributed to
-        improving AI reasoning at OutliersAI. I love building scalable, user-centric applications
-        and I'm always looking for opportunities to grow and contribute.
+        I'm a Software Engineer who builds iOS apps and full-stack web products that are fast,
+        clean, and ready for real users. I've shipped apps at Infosys and contributed to AI
+        systems at OutliersAI. Whether you need a native iOS app, a web platform, or a robust
+        API — I can take it from spec to production.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

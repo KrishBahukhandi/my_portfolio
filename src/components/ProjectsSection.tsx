@@ -1,27 +1,28 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
+// TODO: Add GitHub/live URLs for Healthcare and Electricity Billing projects when repos are public
 const projects = [
   {
     title: "UniRide",
-    desc: "A full-scale iOS campus ride-sharing & community platform with real-time location-based discovery using CoreLocation and JSON-backed data models.",
+    desc: "A full-scale iOS campus ride-sharing & community platform with real-time location-based discovery. Built with CoreLocation for geofencing and Codable for JSON-backed data persistence — designed for daily use by hundreds of students.",
     tech: ["Swift", "SwiftUI", "Codable", "CoreLocation"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/iOS-DC/Odyssey-labs-iOS-App",
+    live: null as string | null,
   },
   {
     title: "Healthcare Management System",
-    desc: "A healthcare platform supporting appointment scheduling, secure record management, REST APIs and dashboards to streamline hospital workflows.",
+    desc: "End-to-end healthcare platform that streamlines appointment scheduling, secure patient record management, and hospital workflows. Features a React dashboard and Node.js REST API connecting medical staff and patients in one system.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
+    github: null as string | null,
+    live: null as string | null,
   },
   {
     title: "Electricity Billing Automation",
-    desc: "Java-based system to automate electricity usage calculations using object-oriented principles for modularity and maintainability.",
+    desc: "Java-based billing system that automates electricity usage calculations, invoice generation, and payment tracking — replacing manual processes with a modular, maintainable OOP architecture.",
     tech: ["Java", "OOP"],
-    github: "#",
-    live: "#",
+    github: null as string | null,
+    live: null as string | null,
   },
 ];
 
@@ -64,14 +65,20 @@ const ProjectsSection = () => (
                   ))}
                 </div>
               </div>
-              <div className="flex gap-3 md:mt-1">
-                <a href={project.github} className="p-2 rounded-lg border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-colors">
-                  <Github className="w-5 h-5" />
-                </a>
-                <a href={project.live} className="p-2 rounded-lg border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-colors">
-                  <ExternalLink className="w-5 h-5" />
-                </a>
-              </div>
+              {(project.github || project.live) && (
+                <div className="flex gap-3 md:mt-1">
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-colors">
+                      <Github className="w-5 h-5" />
+                    </a>
+                  )}
+                  {project.live && (
+                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-colors">
+                      <ExternalLink className="w-5 h-5" />
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           </motion.div>
         ))}
