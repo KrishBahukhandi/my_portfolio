@@ -5,12 +5,14 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/my_portfolio/", // Add this line
   server: {
     host: "::",
     port: 8080,
     hmr: {
       overlay: false,
     },
+
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
