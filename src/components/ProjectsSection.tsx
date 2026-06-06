@@ -1,28 +1,41 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
-// TODO: Add GitHub/live URLs for Healthcare and Electricity Billing projects when repos are public
 const projects = [
   {
     title: "UniRide",
-    desc: "A full-scale iOS campus ride-sharing & community platform with real-time location-based discovery. Built with CoreLocation for geofencing and Codable for JSON-backed data persistence — designed for daily use by hundreds of students.",
+    desc: "A full-scale iOS campus ride-sharing & community platform with real-time, location-based discovery. Built with CoreLocation for geofencing and Codable for JSON-backed persistence — now published and live on the App Store.",
     tech: ["Swift", "SwiftUI", "Codable", "CoreLocation"],
     github: "https://github.com/iOS-DC/Odyssey-labs-iOS-App",
-    live: null as string | null,
+    live: "https://apps.apple.com/in/app/uniride/id6760745418" as string | null,
   },
   {
-    title: "Healthcare Management System",
-    desc: "End-to-end healthcare platform that streamlines appointment scheduling, secure patient record management, and hospital workflows. Features a React dashboard and Node.js REST API connecting medical staff and patients in one system.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    title: "Tareshwar Tutorials",
+    desc: "A live marketing website for a K–12 coaching centre in Panchkula, currently in production use. Hand-built and fully responsive, with course details, faculty highlights, and clear calls-to-action tuned for local search and mobile visitors.",
+    tech: ["HTML", "CSS", "JavaScript", "Responsive"],
     github: null as string | null,
-    live: null as string | null,
+    live: "https://krishbahukhandi.github.io/tareshwar-tutorials-web/" as string | null,
   },
   {
-    title: "Electricity Billing Automation",
-    desc: "Java-based billing system that automates electricity usage calculations, invoice generation, and payment tracking — replacing manual processes with a modular, maintainable OOP architecture.",
-    tech: ["Java", "OOP"],
+    title: "Salon Website (Demo)",
+    desc: "A demo landing page for a premium salon ('Luxe Beauty Studio'), showcasing conversion-focused web design for local businesses — service listings, gallery, and booking call-to-actions in a polished, responsive layout.",
+    tech: ["HTML", "CSS", "JavaScript", "Responsive"],
     github: null as string | null,
-    live: null as string | null,
+    live: "https://krishbahukhandi.github.io/demo-salon/" as string | null,
+  },
+  {
+    title: "Clinic Website (Demo)",
+    desc: "A demo site for a doctor's clinic ('HealthFirst Clinic') — a clean, trustworthy layout with services, doctor profile, and appointment call-to-actions, built to demonstrate healthcare web design for local practices.",
+    tech: ["HTML", "CSS", "JavaScript", "Responsive"],
+    github: null as string | null,
+    live: "https://krishbahukhandi.github.io/demo-clinic/" as string | null,
+  },
+  {
+    title: "Gym Website (Demo)",
+    desc: "A demo landing page for a fitness gym ('IronEdge Fitness') — a bold, high-energy design with membership plans, class highlights, and sign-up call-to-actions, built to showcase marketing sites for fitness brands.",
+    tech: ["HTML", "CSS", "JavaScript", "Responsive"],
+    github: null as string | null,
+    live: "https://krishbahukhandi.github.io/demo-gym/" as string | null,
   },
 ];
 
